@@ -14,7 +14,7 @@ const App: React.FC = () => {
       <StatusBar hidden={true}/>{/* StatusBar para tirar a coisa lá em cima, esqueci o nome*/}
       <Stack.Navigator screenOptions={{headerShown:false}}>
         <Stack.Screen name="Settings" component={Settings}/>
-        {/* A primeira pagina que irá aparecer, será o Settings, se quiser trocar é só colocar Home em primeiro e o settings em segundo */}
+        {/* A primeira pagina que irá aparecer será o Settings, se quiser trocar é só colocar Home em primeiro e o settings em segundo */}
         <Stack.Screen name="Home" component={Home}/>
       </Stack.Navigator>
     </NavigationContainer>
